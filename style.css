@@ -1,0 +1,25 @@
+@charset "UTF-8";
+h1 {
+  position: fixed;
+  top: 10px;
+  font-size: 100px;
+  font-family: 'Do Hyeon', sans-serif;
+  letter-spacing: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-elm {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  font-size: 12px;
+}
+
+.menu-elm+.menu-elm {
+  margin-left: 5px;
+}
