@@ -1,0 +1,165 @@
+@charset "UTF-8";
+h1 {
+  position: fixed;
+  top: 10px;
+  font-size: 140px;
+  font-family: 'Do Hyeon', sans-serif;
+  letter-spacing: 10px;
+  padding-left: 60px;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+
+.menu-elm {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  font-size: 12px;
+  padding: 40px 20px 10px 10px;
+}
+
+.menu-elm+.menu-elm {
+  margin-left: 5px;
+}
+
+.topgazou {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  padding-top: 20px;
+}
+
+.main-page {
+  position: relative;
+}
+
+.main-catch-copy {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  font-size: 50px;
+  color: #fff;
+  margin-left: 50px;
+}
+
+body {
+  background-color: #000;
+  margin: 30px;
+}
+
+.sidenav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  z-index: 100;
+}
+
+.header_sp_nav {
+  width: 50px;
+  height: 46px;
+  cursor: pointer;
+}
+
+.nav_line {
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.nav1 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+.nav_line1 {
+  transform: translateY(20px); //上から0pxの位置
+}
+
+.nav_line2 {
+  transform: translateY(40px); //上から22pxの位置
+}
+
+.nav_line3 {
+  transform: translateY(60px); //上から44pxの位置
+}
+
+.sidenav li {
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+  border: solid 1px #fff;
+  border-radius: 5px;
+}
+
+.sidenav ul {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+main {
+  padding-left: 80px;
+}
+
+.Resarvarion {
+  background-color: #281212;
+  width: 80px;
+  height: 200px;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.yoyaku {
+  transform: rotate( -90deg);
+}
+
+.check {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.fab fa-facebook {
+  color: #fff;
+}
+
+.fab fa-twitter {
+  color: #fff;
+}
+
+.fab fa-instagram {
+  color: #fff;
+}
+
+.scr {
+  color: #fff;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  position: absolute;
+  right: 100px;
+  bottom: 80px;
+}
