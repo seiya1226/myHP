@@ -2,11 +2,20 @@
 h1 {
   position: fixed;
   top: 10px;
-  font-size: 140px;
   font-family: 'Do Hyeon', sans-serif;
   letter-spacing: 10px;
   padding-left: 60px;
   color: #fff;
+  transition-property: font-size;
+  transition-duration: 0.2s;
+}
+
+h1.active {
+  font-size: 140px;
+}
+
+h1.disable {
+  font-size: 5px;
 }
 
 .menu {
@@ -93,6 +102,19 @@ body {
   left: 0;
   background-color: white;
   z-index: 10;
+  background: #333;
+}
+
+.nav2 {
+  color: #fff;
+  text-align: center;
+  background-color: #333;
+}
+
+.navminx {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
 }
 
 .nav_line1 {
@@ -132,11 +154,15 @@ main {
   height: 200px;
   padding: 20px 0 0 0;
   text-align: center;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
 }
 
+/*
 .yoyaku {
   transform: rotate( -90deg);
 }
+*/
 
 .check {
   font-size: 30px;
